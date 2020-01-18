@@ -150,6 +150,9 @@ function ViewClasses(props) {
           </Row>
 
           <Container fluid="true">
+            {
+              //console.log(dataArray)
+            }
             <CardGroup>
               {dataArray.map(item => (
                 <Row key={item.courseNumber} style={{ marin: 2 }}>
