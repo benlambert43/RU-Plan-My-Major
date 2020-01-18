@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Form, Button, Col } from "react-bootstrap";
+import { Container, Row, Form, Button, Col, Spinner } from "react-bootstrap";
 import axios from "axios";
 import DegreeNavSheet from "./DegreeNavSheet";
 
@@ -85,7 +85,12 @@ function Main() {
       )}
 
       {isLoading ? (
-        <div></div>
+        <div>
+          {" "}
+          <div style={{ marginLeft: 20 }}>
+            <Spinner animation="border" />
+          </div>
+        </div>
       ) : (
         <div>
           {data.results && !selectedMajor ? (
