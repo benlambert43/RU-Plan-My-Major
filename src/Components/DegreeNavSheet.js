@@ -9,7 +9,8 @@ const DegreeNavSheet = props => {
 
   const [degreeNav, setDegreeNav] = useState({ results: [] });
   const [url] = useState(
-    "http://www.scarletscheduledesigner.com/get_degree_json?q=" + props.props.id
+    "https://cors-anywhere.herokuapp.com/http://www.scarletscheduledesigner.com/get_degree_json?q=" +
+      props.props.id
   );
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);

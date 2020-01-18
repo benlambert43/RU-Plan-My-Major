@@ -13,7 +13,8 @@ function Main() {
 
   const setURLfunc = () => {
     setURL(
-      "http://www.scarletscheduledesigner.com/search_degrees?q=" + SearchMajor
+      "https://cors-anywhere.herokuapp.com/http://www.scarletscheduledesigner.com/search_degrees?q=" +
+        SearchMajor
     );
   };
 
