@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/RU-Plan-My-Major/static/css/main.5facb584.chunk.css",
-    "main.js": "/RU-Plan-My-Major/static/js/main.4e35fbdd.chunk.js",
-    "main.js.map": "/RU-Plan-My-Major/static/js/main.4e35fbdd.chunk.js.map",
+    "main.js": "/RU-Plan-My-Major/static/js/main.f669d46d.chunk.js",
+    "main.js.map": "/RU-Plan-My-Major/static/js/main.f669d46d.chunk.js.map",
     "runtime-main.js": "/RU-Plan-My-Major/static/js/runtime-main.a8cdfb08.js",
     "runtime-main.js.map": "/RU-Plan-My-Major/static/js/runtime-main.a8cdfb08.js.map",
     "static/css/2.17e5ed98.chunk.css": "/RU-Plan-My-Major/static/css/2.17e5ed98.chunk.css",
     "static/js/2.94315352.chunk.js": "/RU-Plan-My-Major/static/js/2.94315352.chunk.js",
     "static/js/2.94315352.chunk.js.map": "/RU-Plan-My-Major/static/js/2.94315352.chunk.js.map",
     "index.html": "/RU-Plan-My-Major/index.html",
-    "precache-manifest.33f528a0af599a6d04d9cfbd4019f747.js": "/RU-Plan-My-Major/precache-manifest.33f528a0af599a6d04d9cfbd4019f747.js",
+    "precache-manifest.83d2bdcb77ba9d683652b846903e7ac3.js": "/RU-Plan-My-Major/precache-manifest.83d2bdcb77ba9d683652b846903e7ac3.js",
     "service-worker.js": "/RU-Plan-My-Major/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/RU-Plan-My-Major/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.5facb584.chunk.css.map": "/RU-Plan-My-Major/static/css/main.5facb584.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.94315352.chunk.js",
     "static/css/main.5facb584.chunk.css",
-    "static/js/main.4e35fbdd.chunk.js"
+    "static/js/main.f669d46d.chunk.js"
   ]
 }
