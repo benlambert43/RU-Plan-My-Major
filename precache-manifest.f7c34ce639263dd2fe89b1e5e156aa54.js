@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "164863fde6b8a81232c3a4ddd86e59a5",
+    "revision": "41317fe435eb0227fd23a75b1b9555df",
     "url": "/RU-Plan-My-Major/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RU-Plan-My-Major/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "199dc78769fae0e284fe",
+    "revision": "1b9954872896361e6073",
     "url": "/RU-Plan-My-Major/static/css/main.5facb584.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RU-Plan-My-Major/static/js/2.94315352.chunk.js.LICENSE"
   },
   {
-    "revision": "199dc78769fae0e284fe",
-    "url": "/RU-Plan-My-Major/static/js/main.d41b3f0c.chunk.js"
+    "revision": "1b9954872896361e6073",
+    "url": "/RU-Plan-My-Major/static/js/main.ee7299ed.chunk.js"
   },
   {
     "revision": "2bf5a0950a5ed6d1a140",
