@@ -35,18 +35,18 @@ function NavigationBar() {
                 alt="logo"
               />
             </Navbar.Brand>
-            <Link to="/" className="navbar-brand">
+            <Link to="/RU-Plan-My-Major/" className="navbar-brand">
               RU Plan My Major
             </Link>
 
             <ul className="navbar-nav mr-auto">
               <li className="navbar-item">
-                <Link to="/viewclasses" className="nav-link">
+                <Link to="/RU-Plan-My-Major/viewclasses" className="nav-link">
                   Open Classes by Department
                 </Link>
               </li>
               <li className="navbar-item">
-                <Link to="/checkout" className="nav-link">
+                <Link to="/RU-Plan-My-Major/checkout" className="nav-link">
                   Register My Classes
                 </Link>
               </li>
@@ -57,7 +57,7 @@ function NavigationBar() {
             {firstName ? (
               <ul className="navbar-nav mr-auto">
                 <li className="navbar-item">
-                  <Link to="/login" className="nav-link">
+                  <Link to="/RU-Plan-My-Major/login" className="nav-link">
                     Hello, {firstName}
                   </Link>
                 </li>
@@ -74,16 +74,16 @@ function NavigationBar() {
           </Navbar.Text>
         </Navbar>
         <Route
-          path="/"
+          path="/RU-Plan-My-Major/"
           exact
           render={() => <Main responseObject={responseObject} />}
         />
         <Route
-          path="/viewclasses"
+          path="/RU-Plan-My-Major/viewclasses"
           render={() => <ViewClasses responseObject={responseObject} />}
         />
-        <Route path="/checkout" exact component={Checkout} />
-        <Route path="/login" exact component={Login} />
+        <Route path="/RU-Plan-My-Major/checkout" component={Checkout} />
+        <Route path="/RU-Plan-My-Major/login" component={Login} />
       </div>
     </Router>
   );

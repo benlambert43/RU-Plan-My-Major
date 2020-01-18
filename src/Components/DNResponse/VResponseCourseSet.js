@@ -4,6 +4,7 @@ const VResponseCourseSet = props => {
   const str = props.item.code;
   const strArr = str.split(":");
   const coreCode = strArr[1];
+
   console.log(coreCode);
   return (
     <div>

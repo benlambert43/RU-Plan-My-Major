@@ -3,7 +3,7 @@ import { Container, Row, Form, Button, Col } from "react-bootstrap";
 import axios from "axios";
 import DegreeNavSheet from "./DegreeNavSheet";
 
-function Main(props) {
+function Main() {
   const [SearchMajor, setSearchMajor] = useState("computer");
   const [url, setURL] = useState("");
   const [data, setData] = useState({ results: [] });
@@ -58,7 +58,9 @@ function Main(props) {
             <br />
             <h4>Select your major:</h4>
             {isError ? (
-              <div>An error occured. Please Refresh.</div>
+              <div>
+                <br />
+              </div>
             ) : (
               <div></div>
             )}
